@@ -13,6 +13,10 @@ export default function Contact() {
 
   return (
      <section id="contact">
+      <form action="mailto:ezemokwev@gmail.com"
+        method="post"
+        enctype="text/plain"
+        id="emailForm">
       <h2 className="text-2xl font-semibold mb-6 text-blue-600">Contact Me</h2>
        <div className="mb-4">
         <label className="block mb-1 font-medium">Your Name</label>
@@ -39,8 +43,14 @@ export default function Contact() {
       <button
         // onClick={handleSend}
         className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition"
-      ><a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank">Send</a>
+      ><a href="https://mail.google.com/mail/?view=cm&fs=1&to=ezemokwev@gmail.com" target="_blank">Send</a>
       </button>
+
+      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ezemokwev@gmail.com" 
+    target="_blank"
+    className="text-blue-600 px-4 mb-32">Compose an email here</a>
+
+      </form>
     </section>
   );
 }
