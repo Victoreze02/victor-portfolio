@@ -1,4 +1,4 @@
-
+import Victor from '../image/Victor.image.png'
 
 export default function Hero() {
   return (
@@ -9,7 +9,7 @@ export default function Hero() {
       </div>
       <div>
         <img
-          src="./src/image/Victor.image.png"
+          src={Victor}
           alt="Profile-Image"
           className="rounded-full shadow-lg w-48 h-48 object-cover"
         />

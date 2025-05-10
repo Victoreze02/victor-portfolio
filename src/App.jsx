@@ -8,6 +8,8 @@ import Technologies from './components/Technologies';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
+
+
 export default function App() {
   return (
      <div className="min-h-screen bg-gradient-to-br from-gray-100 to-blue-100 text-gray-800 font-sans">
