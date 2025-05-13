@@ -25,9 +25,9 @@ const moreProjects = [
     link: 'https://reactjs-todolist-alpha.vercel.app/',
   },
   {
-    title: 'TEC Church Webpage',
-    description: 'A Webpage buit built with Html, CSS, Javascript and Bootstrap',
-    link: 'https://tec-9jn7.vercel.app/',
+    title: 'Image Generator',
+    description: 'An image generator webpage thaat generates images based on search terms',
+    link: 'https://image-generator-tau-eight.vercel.app/',
   },
   {
     title: 'Technical Writing Blog',
